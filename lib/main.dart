@@ -35,7 +35,7 @@ class TestScreen extends StatefulWidget {
 }
 
 class _TestScreenState extends State<TestScreen> {
-  static const int itemCount = 1000000;
+  static const int itemCount = 10000;
   static const double itemExtent = 50;
   bool useListViewBuilder = false;
   bool useWidgetChild = false;
@@ -165,7 +165,7 @@ class _TestScreenState extends State<TestScreen> {
 }
 
 const _imageUrl =
-    'https://wdorogu.ru/wp-content/uploads/2022/10/1633502182_2-pro-dachnikov-com-p-manul-koshka-domashnii-foto-2.jpg';
+    'https://avatars.mds.yandex.net/i?id=5497c7dc23d8acedf62e168321c645a8_l-5220447-images-thumbs&n=13';
 
 class _Item extends StatelessWidget {
   final int index;
